@@ -19,4 +19,5 @@ color2.addEventListener("input",setGradient);
 
 enterb.addEventListener('click', function(){
 	h.innerHTML="I am learning git";
+	h.style.font="35px";
 })
