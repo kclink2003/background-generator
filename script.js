@@ -2,6 +2,8 @@ var css= document.querySelector("h3");
 var color1=document.querySelector(".color1");
 var color2=document.querySelector(".color2");
 var body= document.getElementById("gradient");
+let enterb=document.getElementById("enter");
+let h=document.getElementById("h");
 
 
 function setGradient(){
@@ -14,3 +16,7 @@ color1.addEventListener("input", setGradient);
 
 
 color2.addEventListener("input",setGradient);
+
+enterb.addEventListener('click', function(){
+	h.innerHTML="I am learning git";
+})
